@@ -73,7 +73,7 @@ UNI-V2 LP Address on mainnet for reference
 
 export const supportedPools = [
   {
-    pid: 12,
+    pid: 0,
     lpAddresses: {
       1: '0x795065dcc9f64b5614c407a6efdc400da6221fb0',
       3: '0x74110b566846480fb697b8f045916cdb924f3d96',
