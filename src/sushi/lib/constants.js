@@ -41,12 +41,15 @@ export const addressMap = {
 export const contractAddresses = {
   sushi: {
     1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    3: '0xB2bA199d10cF31506ca31b81E0B28449aBCFeECA',
   },
   masterChef: {
     1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
+    3: '0x0767a47E687764Dcd2BE69AA9222C3974413622F',
   },
   weth: {
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    3: '0xc778417e063141139fce010982780140aa0cd5ab',
   },
 }
 
@@ -73,15 +76,18 @@ export const supportedPools = [
     pid: 12,
     lpAddresses: {
       1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      3: '0x74110b566846480fb697b8f045916cdb924f3d96',
     },
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+      3: '0xB2bA199d10cF31506ca31b81E0B28449aBCFeECA',
     },
     name: 'Sushi Party!',
     symbol: 'SUSHI-ETH UNI-V2 LP',
     tokenSymbol: 'SUSHI',
     icon: '🍣',
   },
+  /*
   {
     pid: 0,
     lpAddresses: {
@@ -303,4 +309,5 @@ export const supportedPools = [
     tokenSymbol: 'CRV',
     icon: '🐊',
   },
+  */
 ]
